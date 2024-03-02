@@ -4,7 +4,6 @@ import { Link, Outlet } from "react-router-dom";
 
 const NavbarComponent = () => {
     const [visible, setVisible] = useState(false);
-    // console.log(visible)
 
     return (
         <>
