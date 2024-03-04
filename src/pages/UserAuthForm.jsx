@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import AnimationWraper from "../common/AnimationWraper";
 const UserAuthForm = ({ type }) => {
     return (
-        <AnimationWraper>
+        <AnimationWraper keyValue={type}>
             <section className="h-cover flex justify-center items-center ">
                 <form className="w-[80%] max-w-[400px] ">
                     <h1 className="text-4xl font-gelasio capitalize text-center mb-24">
